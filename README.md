@@ -9,9 +9,11 @@ En el momento de crear ésta documentación de Sql Server, fué necesario pero n
 ## Ilustración
 ![ils](Data/2.gif)
 
-## > 1.- Crear Base De Datos
+## > 1.- Crear y eliminar Base De Datos
 ``` SQL
     create database prueba
+
+    drop database prueba
 ```
 
 ~~~
@@ -22,10 +24,11 @@ Para éste primer ejemplo no es necesario un ejemplo detallado.
 
 #Comandos
 Create database (Nombre BD)                   | Comando para crear una base de datos
+drop database (Nombre BD)                     | Comando para eliminar una base de datos
 ~~~
 ➡ Sin archivo doc.mitch
 
-➡ [Enlace del Script.sql](1.-CrearDataBase/1.sql)
+➡ [Enlace del Script.sql](1_CrearEliminarDataBase/1.sql)
 
 
 
